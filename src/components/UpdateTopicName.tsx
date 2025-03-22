@@ -10,22 +10,28 @@ export function UpdateTopicName() {
   return (
     <>
       <Input
-          type="text"
-          value={text}
-          onChange={onChange}
-          className="pr-20 border-black! text-black!"
-          label="Update Topic Name"
-          color="black"
-          variant="standard"
-          crossOrigin={null}
-          name="topicName" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      />
+        type="text"
+        value={text}
+        onChange={onChange}
+        className="pr-20 border-black! text-black!"
+        label="Update Topic Name"
+        color="black"
+        variant="standard"
+        crossOrigin={null}
+        name="topicName"
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
+      />
       <Button
-          size="sm"
-          color={"black"}
-          disabled={!text}
-          className="absolute! right-1 top-1 rounded-sm"
-          placeholder={null}
-          type="submit" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
+        size="sm"
+        color={"black"}
+        disabled={!text}
+        className="absolute! right-1 top-1 rounded-sm"
+        placeholder={null}
+        type="submit"
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
+      >
         Update
       </Button>
     </>
