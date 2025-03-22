@@ -24,7 +24,7 @@ const Page = async (props: { params: Promise<{ folderId: string }> }) => {
 
       <DeleteTopic folderId={params.folderId} />
 
-      <div className="flex flex-col gap-4 my-4">
+      <div className="my-4 flex flex-col gap-4">
         <UpdateTopicNameContainer
           folderId={params.folderId}
           topicName={topicName.name}

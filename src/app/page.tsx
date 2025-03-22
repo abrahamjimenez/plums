@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Link
-        className="flex justify-center text-4xl border rounded-sm mx-4 bg-custom-deep-plum text-custom-off-white mt-4"
+        className="mx-4 mt-4 flex justify-center rounded-sm border text-4xl bg-custom-deep-plum text-custom-off-white"
         href="/topics/"
       >
         View all notes

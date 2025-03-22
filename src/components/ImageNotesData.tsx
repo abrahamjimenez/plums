@@ -10,9 +10,9 @@ const ImageNotesData = async ({ topicId }: { topicId: string }) => {
       {imageNotes.map((imageNote) => (
         <div key={imageNote.id}>
           <Link href={`/topics/${topicId}/${imageNote.id}`}>
-            <p className="border py-4 px-4 flex gap-4">
+            <p className="flex gap-4 border px-4 py-4">
               <span>
-                <PhotoIcon className="2-5 h-5" />
+                <PhotoIcon className="h-5 2-5" />
               </span>
               {imageNote.title}
             </p>

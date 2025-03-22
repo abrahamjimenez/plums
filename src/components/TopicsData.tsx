@@ -11,7 +11,7 @@ const TopicsData = async () => {
   return (
     <div>
       {topics.map((topic: Topic) => (
-        <div key={topic.id} className="border py-4 px-4 flex flex-col gap-4">
+        <div key={topic.id} className="flex flex-col gap-4 border px-4 py-4">
           <Link href={`/topics/${topic.id}`}>
             <p>{topic.name}</p>
           </Link>

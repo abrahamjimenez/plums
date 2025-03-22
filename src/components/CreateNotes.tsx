@@ -42,7 +42,7 @@ const CreateNotes = ({ folderId }: { folderId: string }) => {
     redirect(`/topics/${folderId}`);
   }
   return (
-    <div className=" bg-custom-off-white">
+    <div className="bg-custom-off-white">
       <form action={createTextNoteAction} className="border-b-2 border-black">
         <CreateTextNote />
       </form>

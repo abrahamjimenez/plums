@@ -10,9 +10,9 @@ const LinkNotesData = async ({ topicId }: { topicId: string }) => {
       {linkNotes.map((linkNote) => (
         <div key={linkNote.id}>
           <Link href={`/topics/${topicId}/${linkNote.id}`}>
-            <p className="border py-4 px-4 flex gap-4">
+            <p className="flex gap-4 border px-4 py-4">
               <span>
-                <LinkIcon className="2-5 h-5" />
+                <LinkIcon className="h-5 2-5" />
               </span>
               {linkNote.title}
             </p>

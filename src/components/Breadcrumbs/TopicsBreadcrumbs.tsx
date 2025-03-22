@@ -8,7 +8,7 @@ const TopicsBreadcrumbs = () => {
   return (
     <div>
       <Breadcrumbs
-        className="bg-custom-off-white opacity-80 text-custom-dark-gray"
+        className="opacity-80 bg-custom-off-white text-custom-dark-gray"
         placeholder={null}
         onPointerEnterCapture={undefined}
         onPointerLeaveCapture={undefined}
