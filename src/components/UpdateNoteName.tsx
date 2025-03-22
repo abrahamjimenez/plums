@@ -10,24 +10,22 @@ export function UpdateNoteName() {
   return (
     <>
       <Input
-        type="text"
-        value={text}
-        onChange={onChange}
-        className="pr-20 border-black! text-black!"
-        label="Update Note Name"
-        color="black"
-        variant="standard"
-        crossOrigin={null}
-        name="noteName"
-      />
+          type="text"
+          value={text}
+          onChange={onChange}
+          className="pr-20 border-black! text-black!"
+          label="Update Note Name"
+          color="black"
+          variant="standard"
+          crossOrigin={null}
+          name="noteName" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      />
       <Button
-        size="sm"
-        color={"black"}
-        disabled={!text}
-        className="absolute! right-1 top-1 rounded-sm"
-        placeholder={null}
-        type="submit"
-      >
+          size="sm"
+          color={"black"}
+          disabled={!text}
+          className="absolute! right-1 top-1 rounded-sm"
+          placeholder={null}
+          type="submit" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
         Update
       </Button>
     </>

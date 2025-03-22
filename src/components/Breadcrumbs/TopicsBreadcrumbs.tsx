@@ -8,9 +8,8 @@ const TopicsBreadcrumbs = () => {
   return (
     <div>
       <Breadcrumbs
-        className="bg-custom-off-white opacity-80 text-custom-dark-gray"
-        placeholder={null}
-      >
+          className="bg-custom-off-white opacity-80 text-custom-dark-gray"
+          placeholder={null} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
         <Link href="/">Home</Link>
         <Link href="/topics/">Topics</Link>
       </Breadcrumbs>
