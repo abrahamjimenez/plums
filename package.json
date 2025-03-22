@@ -6,10 +6,10 @@
     "dev": "next dev --turbopack",
     "turbo": "next dev --turbo",
     "build": "next build",
-    "start": "npm run dev",
+    "start": "pnpm run dev",
     "lint": "next lint",
     "prettier": "prettier --write src",
-    "format": "concurrently \"npm run lint\" \"npm run prettier\""
+    "format": "concurrently \"pnpm run lint\" \"pnpm run prettier\""
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -34,10 +34,6 @@
     "typescript": "^5.8.2"
   },
   "pnpm": {
-    "overrides": {
-      "@types/react": "19.0.12",
-      "@types/react-dom": "19.0.4"
-    },
     "onlyBuiltDependencies": [
       "@prisma/client",
       "@prisma/engines",
