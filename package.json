@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "turbo": "next dev --turbo",
-    "build": "next build && pnpm dlx prisma generate",
+    "build": "next build && pnpm prisma generate",
     "start": "pnpm run dev",
     "lint": "next lint",
     "prettier": "prettier --write src",
